@@ -1,0 +1,137 @@
+	body{
+		padding: 0;
+		display: block;
+		background-image: url(../../../images/backgrounds/background_dark.jpg); ;
+		overflow-x: hidden;
+	}
+	
+	.hideme{
+		display: none;
+	}
+
+	.menuCaption{
+		font-weight: bold;
+		padding: 3px;
+	}
+
+	.showHidden{
+		cursor: pointer;
+	}
+	
+	#header {
+		font-size: 40px;
+		text-align: center;
+
+	}
+
+	#header h1 {
+		color: #f0c040;
+		cursor: pointer;
+	}
+
+	#uploadPicture{
+		margin-left: 43%;
+		margin-right: 40%;
+	}
+
+	#uploadPicture h3{
+		color: #f0c040;
+	}
+
+	#uploadPicture  textarea{
+		width: 200px;
+	}
+
+	#uploadForm{
+		margin-left: 35%;
+		margin-right: 35%;
+	}
+	#uploadForm{
+		display: none;
+	}
+	#uploadForm textarea{
+		width: 400px;
+		height: 200px;
+		resize : none;
+	}
+	#uploadForm input{
+		width: 400px;
+		height: 30px;
+	}
+	#uploadForm #uploadButton{
+		color: #9B410E;
+	}
+
+	#sortForm{
+		margin-left: 38%;
+		margin-right: 30%;
+		display: none;
+	}
+
+	#sortForm b{
+		color: lavender;
+	}
+
+	#sort{
+		margin-left: 45%;
+		margin-right: 50%;
+	}
+
+	#sort h3{
+		color: #f0c040;
+	}
+	#sortSubmit{
+		margin-left: 30%;
+		margin-right: 45%;
+	}
+
+	#centerColumn{
+		padding-top: 50px;
+		padding-left: 90px;
+		width: 100%;
+	}
+	#centerColumn h3 {
+		color: #f0c040;
+	}
+	#centerColumn textarea {
+		width: 80px;
+	}
+
+	#picturePage{
+        margin-left: 35%;
+		margin-right: 35%;
+
+    }
+	#picturePage h3{
+
+		color: navajowhite;
+
+	}
+    #picturePage img{
+        width: 400px;
+        height: 400px;
+    }
+	#updateDescription textarea {
+		width: 400px;
+		height: 200px;
+		font-size: 15px ;
+	}
+	::-webkit-input-placeholder {color: black}
+
+	#indexBlock{
+		float: left;
+		padding: 0px 30px 40px 0px;
+	}
+	#indexBlock #openPicture{
+		color: silver;
+	}
+
+	#openPicture{
+		width: 600px;
+		height: 600px;
+	}
+
+	#footer{
+		clear: both;
+	}
+
